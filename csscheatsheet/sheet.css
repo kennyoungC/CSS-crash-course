@@ -1,0 +1,77 @@
+body{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+    background-color:rgb(248, 246, 246);
+    line-height: 1.6em;
+    margin:0;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+
+}
+a:active{
+    color: green;
+}
+/*
+a:visited{
+    color: blue;
+}*/
+
+
+.my-box h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: lowercase;
+    font-size:35px;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+.my-box{
+    color: chocolate;
+    background-color: cornsilk;
+    line-height: 1.6em;
+    border-bottom: red solid;
+    border-top: red solid;
+    border-right: red solid;
+    border-left: red solid;
+    /*also written as*/
+    border: red solid;
+}
+.my-box2{
+    border: 3px double white;
+    padding: 24px;
+    margin: 9px;
+
+}
+.categories{
+    border: 1px rgb(139, 28, 28) solid;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    list-style: square;
+}
+
+
+.categories
