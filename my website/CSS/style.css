@@ -1,0 +1,116 @@
+.body{
+    background-color: rgb(14, 13, 13);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+.clear{
+    clear:both;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color:rgb(12, 12, 12);
+    color: white;
+}
+
+#navbar{
+    background-color: rgb(20, 18, 18);
+    color: white;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#showcase{
+    background-image: url('../images/vdu.png'); 
+    background-position: center right;
+    min-height:300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: rgb(240, 232, 232);
+    font-size: 25px;
+    line-height: 1.6em;
+    
+    
+}
+#my-table{
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+}
+#my-table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#my-table td, #my-table th{
+    border: 0.3px solid rgb(10, 10, 10);
+}
+
+#my-table tr:hover{
+    background-color: gray;
+    color: white;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: black;
+    color: blanchedalmond;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+#main-footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 0.1px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
